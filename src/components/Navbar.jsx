@@ -1,0 +1,52 @@
+import { useState } from "react";
+import { FaBarsStaggered } from "react-icons/fa6";
+import { FaTimes } from "react-icons/fa";
+import Logo from '../assets/logo.png'
+
+function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <>
+      {/* Main Body */}
+      <div  style={{fontFamily:'Poppins'}}  className=" top-0 left-0 w-full h-30% flex justify-between z-50 text-white lg:py-2 px-10   mt-5 ">
+        <div className="flex items-center">
+          <img src={Logo}  className="w-20 h-auto"  alt="Logo" />
+        </div>
+        {/* The opening and closing icon */}
+        <div className="lg:hidden flex items-center">
+          <button onClick={toggleMenu} className="flex items-center">
+            <FaBarsStaggered
+              size={20}
+              className={`text-red-300 ${isOpen ? "hidden" : "block"}`}
+            />
+            <FaTimes
+              size={20}
+              className={`text-blue-400 ${isOpen ? "block" : "hidden"} `}
+            />
+          </button>
+        </div>
+        {/* Main Navbar */}
+        <div className="hidden lg:flex items-center justify-center w-full text-black ">
+          <ul className="flex flex-row gap-8 text-[15px] cursor-pointer  ">
+            <li>Home </li>
+            <li>About Us </li>
+            <li>Menu</li>
+            <li>Locations  </li>
+            <li>Partners </li>
+          </ul>
+        </div>
+        <div className="hidden lg:flex flex-shrink-0 ">
+          <button className="bg-gradient-to-r from-brown-600 to-brown-400 text-white  rounded-full px-3 py-2 bg-black shadow-lg mr-10 text-[14px]">
+            {" "}
+            Get Voucher
+          </button>
+        </div>
+      </div>
+    </>
+  );
+}
+export default Navbar;
