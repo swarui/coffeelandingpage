@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaBarsStaggered } from "react-icons/fa6";
-import { FaTimes } from "react-icons/fa";
+import { LiaTimesCircleSolid } from "react-icons/lia";
 import Logo from '../assets/logo.png'
 
 function Navbar() {
@@ -23,14 +23,15 @@ function Navbar() {
               size={20}
               className={`text-red-300 ${isOpen ? "hidden" : "block"}`}
             />
-            <FaTimes
-              size={20}
-              className={`text-blue-400 ${isOpen ? "block" : "hidden"} `}
+            <LiaTimesCircleSolid 
+
+              size={30}
+              className={`z-10 text-black cursor-pointer ${isOpen ? "block" : "hidden"} `}
             />
           </button>
         </div>
         {/* Main Navbar */}
-        <div className="hidden lg:flex items-center justify-center w-full text-black ">
+        <div className=" fixed hidden lg:flex items-center justify-center w-full text-black ">
           <ul className="flex flex-row gap-8 text-[15px] cursor-pointer  ">
             <li>Home </li>
             <li>About Us </li>
@@ -45,6 +46,18 @@ function Navbar() {
             Get Voucher
           </button>
         </div>
+      </div>
+      {/* Small Navbar */}
+      <div   style={{fontFamily:'Poppins'}}  className={`fixed top-0 right-0 h-full w-48 overflow-visible text-black  bg-blue-700 transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out lg:hidden `}>
+        <ul  className="flex flex-col gap-3 mt-10 text-lg cursor-pointer px-4  text-[0.875em] " >
+          <li  onClick={toggleMenu} >Home</li>
+          <li onClick={toggleMenu}>About Us</li>
+          <li onClick={toggleMenu}>Menu </li>
+          <li onClick={toggleMenu}>Locations</li>
+          <li onClick={toggleMenu}>Partners</li>
+          <li onClick={toggleMenu}> Get Voucher </li>
+
+        </ul>
       </div>
     </>
   );
