@@ -41,7 +41,7 @@ function Navbar() {
           </ul>
         </div>
         <div className="hidden lg:flex flex-shrink-0 ">
-          <button className="bg-gradient-to-r from-brown-600 to-brown-400 text-white  rounded-full px-3 py-2 bg-black shadow-lg mr-10 text-[14px]">
+          <button className="bg-gradient-to-r from-yellow-700 text-white  transition duration-500   hover:bg-sky-700 rounded-full px-3 py-2 bg-black shadow-lg mr-10 text-[0.795em]">
             {" "}
             Get Voucher
           </button>

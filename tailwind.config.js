@@ -4,5 +4,6 @@ export default {
   theme: {
     extend: {},
   },
+  colors: { darkBrown: "#231005" },
   plugins: [],
 };
