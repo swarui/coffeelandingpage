@@ -2,3 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: gristela;
+    src: url(../src/assets/fonts/gristela.otf);
+}
+@font-face {
+    font-family: moonet;
+    src: url(../src/assets/fonts/Moonet.otf);
+}

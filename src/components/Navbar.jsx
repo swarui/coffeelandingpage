@@ -14,7 +14,7 @@ function Navbar() {
       {/* Main Body */}
       <div  style={{fontFamily:'Poppins'}}  className=" top-0 left-0 w-full h-30% flex justify-between z-50 text-white lg:py-2 px-10   mt-5 ">
         <div className="flex items-center">
-          <img src={Logo}  className="w-20 h-auto"  alt="Logo" />
+          <img src={Logo}  className=" fixed w-20 h-auto "  alt="Logo" />
         </div>
         {/* The opening and closing icon */}
         <div className="lg:hidden flex items-center">
@@ -40,17 +40,18 @@ function Navbar() {
             <li>Partners </li>
           </ul>
         </div>
-        <div className="hidden lg:flex flex-shrink-0 ">
-          <button className="bg-gradient-to-r from-yellow-700 text-white  transition duration-500   hover:bg-sky-700 rounded-full px-3 py-2 bg-black shadow-lg mr-10 text-[0.795em]">
-            {" "}
-            Get Voucher
-          </button>
-        </div>
+        <div className="hidden lg:flex fixed right-10 ">
+  <button className="bg-gradient-to-r from-yellow-700 text-white transition duration-500 hover:bg-sky-700 rounded-full px-3 py-2 bg-black shadow-lg text-[0.795em]">
+    Get Voucher
+  </button>
+</div>
+
       </div>
       {/* Small Navbar */}
+      
       <div   style={{fontFamily:'Poppins'}}  className={`fixed top-0 right-0 h-full w-48 overflow-visible text-black  bg-blue-700 transform ${isOpen ? "translate-x-0" : "translate-x-full"} transition-transform duration-300 ease-in-out lg:hidden `}>
         <ul  className="flex flex-col gap-3 mt-10 text-lg cursor-pointer px-4  text-[0.875em] " >
-          <li  onClick={toggleMenu} >Home</li>
+          <li  onClick={toggleMenu  } >Home</li>
           <li onClick={toggleMenu}>About Us</li>
           <li onClick={toggleMenu}>Menu </li>
           <li onClick={toggleMenu}>Locations</li>
