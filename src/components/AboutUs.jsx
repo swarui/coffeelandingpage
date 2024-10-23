@@ -1,38 +1,27 @@
-import React from 'react';
+import img from '../assets/Coffee.png'
+function AboutUs(){
+    return(<>
 
-const AboutUs = () => {
-    return (
-        <main className="bg-white min-h-screen flex flex-col items-center justify-center">
-            {/* Header Section */}
-            <div 
-                className="relative w-full max-w-4xl mx-auto rounded-lg overflow-hidden h-[75vh] bg-cover bg-center" 
-                style={{ backgroundImage: "url('header.png')" }} // This sets the background image
-            >
-                {/* Overlay Text Section */}
-                <div className="absolute bottom-10 right-16 flex items-end justify-end p-4">
-                    <div className="bg-red-700 px-7 py-9 rounded-lg text-white text-left max-w-sm">
-                        <h1 className="text-lg md:text-xl font-bold poppins-bold leading-tight">
-                            We Promote Social Justice through Research, Capacity Building, Advocacy, and<br /> Public Participation
-                        </h1>
-                    </div>
-                </div>
-            </div>
-
-            {/* Middle Section with Quote */}
-            <div className="mt-16 mb-10 text-center"> {/* Adjusted margin-bottom here */}
-                <p className="text-lg md:text-xl text-red-700 font-medium italic relative">
-                    <span className="text-orange-500 text-7xl font-bold poppins-bold font-weight-700 absolute -left-2 -top-9">“</span>
-                    Envisioning a resilient, informed &<br /> transformative society
-                    <span className="text-orange-600 text-4xl font-bold absolute -bottom-6">”</span>
-                </p>
-            </div>
-
-            <div className="mt-9 flex justify-center w-full">
-                <div className="bg-red-600 h-4 w-3/4"></div>
-                <div className="bg-orange-500 h-4 w-1/4"></div>
-            </div>
-        </main>
-    );
-};
-
-export default AboutUs;
+<div className="mt-10">
+        <h1
+          style={{ fontFamily: "Poppins" }}
+          className="text-center text-[1.5em] text-black "
+        >
+          Who are we?
+        </h1>
+        <h2 style={{ fontFamily: "Poppins" }}
+          className="text-center text-[0.8em] text-blue-600" >About Us</h2>
+    <div className="flex lg:flex-row flex-col">
+        {/* Left Image body */}
+        <div className="w-full lg:w-1/2">
+        <img src={img}  className='mt-[-20vh] lg:w-[550px] sm:w-[250px] md:w-[550px] ' alt="" />
+        </div>
+        {/* Right text Area */}
+        <div className='w-full lg:w-1/2 mt-20  p-10'>
+        <h2  style={{fontFamily:'Poppins'}} >Kahawa Ke, where coffee and comfort come together in perfect harmony. Nestled in the heart of Nairobi,Kenya.We pride ourselves on offering a unique experience for coffee lovers and travelers alike. At Kahawa Ke, we believe that great coffee isn't just a drink—it's a lifestyle.</h2>
+        </div>
+        </div>
+    </div>
+    </>)
+}
+export default AboutUs  
