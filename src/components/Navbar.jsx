@@ -40,7 +40,7 @@ function Navbar() {
             <li>Home </li>
             <li>About Us </li>
             <li>Menu</li>
-            <li>Locations </li>
+            {/* <li>Locations </li> */}
             <li>Partners </li>
           </ul>
         </div>
@@ -60,9 +60,9 @@ function Navbar() {
       >
         <ul className="flex flex-col gap-3 mt-10 text-lg cursor-pointer px-4  text-[0.875em] ">
           <li onClick={toggleMenu}>Home</li>
-          <li onClick={toggleMenu}>About Us</li>
+          <li onClick={toggleMenu}>Menu</li>
           <li onClick={toggleMenu}>Menu </li>
-          <li onClick={toggleMenu}>Locations</li>
+          {/* <li onClick={toggleMenu}>Locations</li> */}
           <li onClick={toggleMenu}>Partners</li>
           <li onClick={toggleMenu}> Get Voucher </li>
         </ul>

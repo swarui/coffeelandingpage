@@ -1,14 +1,15 @@
 import coffee from "../assets/Coffee.png";
 import Kahawa1 from '../assets/Kahawa1.png'
+import Kahawa2 from '../assets/Kahawa2.png'
 function Home() {
   return (
     <>
       {/* Main Body */}
       <div className="flex lg:flex-row flex-col ">
         {/* Left Text Body */}
-        <div className="w-full lg:w-1/2  mt-10 p-10 lg:ml-10 flex flex-col  lg:text-left  ">
+        <div className="w-full lg:w-1/2  mt-20 p-10 lg:ml-10 flex flex-col  lg:text-left  ">
           <h1
-            className="text-[7.5em] font-bold  text-orange-800"
+            className="text-[10.5em] font-bold  text-orange-800"
             style={{ fontFamily: "moonet" }}
           >
             KAHAWA
@@ -48,8 +49,8 @@ function Home() {
         <div className=" w-full lg:w-1/2 flex justify-center  ">
           {" "}
           <img
-            className=" mt-[-20vh] lg:w-[950px] sm:w-[50px] md:w-[250px] "
-            src={Kahawa1}
+            className="  lg:w-[600px] sm:w-[50px] md:w-[250px] "
+            src={Kahawa2}
             alt=""
           />{" "}
         </div>
