@@ -5,9 +5,9 @@ function Home() {
   return (
     <>
       {/* Main Body */}
-      <div className="flex lg:flex-row flex-col ">
+      <div className="flex lg:flex-row flex-col  ">
         {/* Left Text Body */}
-        <div className="w-full lg:w-1/2  mt-20 p-10 lg:ml-10 flex flex-col  lg:text-left  ">
+        <div className="w-full lg:w-1/2  lg:mt-20 p-10 lg:ml-10 flex flex-col  lg:text-left  ">
           <h1
             className="text-[10.5em] font-bold  text-orange-800"
             style={{ fontFamily: "moonet" }}

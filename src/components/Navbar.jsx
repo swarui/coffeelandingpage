@@ -38,8 +38,8 @@ function Navbar() {
         <div className=" fixed hidden lg:flex items-center justify-center w-full text-black  ">
           <ul className="flex flex-row gap-8 text-[15px] cursor-pointer ">
             <li>Home </li>
-            <li>About Us </li>
             <li>Menu</li>
+            <li>About Us</li>
             {/* <li>Locations </li> */}
             <li>Partners </li>
           </ul>
