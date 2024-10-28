@@ -1,5 +1,3 @@
-import coffee from "../assets/Coffee.png";
-import Kahawa1 from '../assets/Kahawa1.png'
 import Kahawa2 from '../assets/Kahawa2.png'
 function Home() {
   return (

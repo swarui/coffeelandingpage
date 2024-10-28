@@ -1,4 +1,4 @@
-import img from '../assets/Coffee.png'
+import img from '../assets/Kafi.png'
 function AboutUs(){
     return(<>
 
