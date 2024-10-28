@@ -1,4 +1,12 @@
 import React from "react";
+import Americano from '../assets/Americano.jpeg'
+import Breve from '../assets/Breve.png'
+import Cappuccino from '../assets/Capucino.jpeg'
+import Corado from '../assets/Corado.jpeg'
+import Iced from '../assets/Iced.jpeg'
+import Latte from '../assets/Latte.jpeg'
+import Mocha from '../assets/Mocha.jpeg'
+import Ricano from '../assets/Ricano.png'
 
 function MenuItem({ title, description, price, image }) {
   return (
@@ -35,55 +43,55 @@ function Menu() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-20 ">
         {/* Manually defined menu items */}
         <MenuItem  
-          title="Arabica Roasted Coffee"
+          title="Breve Coffee"
           description="A blend of Arabica coffee beans."
           price="Ksh 200"
-          image="https://via.placeholder.com/50" // Replace with coffee image URL
+          image={Breve} // Replace with coffee image URL
         />
 
         <MenuItem
-          title="Macchiato Cold Coffee"
+          title="Iced Cold Coffee"
           description="A refreshing cold coffee."
           price="Ksh 250"
-          image="https://via.placeholder.com/50"
+          image={Iced}
         />
 
         <MenuItem
-          title="Espresso Coffee Brew"
+          title="Mocha Coffee Brew"
           description="A strong and rich espresso brew."
           price="Ksh 300"
-          image="https://via.placeholder.com/50"
+          image={Mocha}
         />
 
         <MenuItem
-          title="Americano Coffee"
+          title="Latte Coffee"
           description="A classic americano coffee ."
           price="Ksh 350"
-          image="https://via.placeholder.com/50"
+          image={Latte}
         />
         <MenuItem
           title="Americano Coffee"
           description="A classic americano coffee ."
           price="Ksh 400"
-          image="https://via.placeholder.com/50"
+          image={Americano}
         />
         <MenuItem
-          title="Americano Coffee"
+          title="Corado Coffee"
           description="A classic americano coffee."
           price="Ksh 450"
-          image="https://via.placeholder.com/50"
+          image={Corado}
         />
         <MenuItem
-          title="Americano Coffee"
+          title="Capuccino Coffee"
           description="A classic americano coffee."
           price="Ksh 400"
-          image="https://via.placeholder.com/50"
+          image={Cappuccino}
         />
          <MenuItem
           title="Americano Coffee"
           description="A classic americano coffee."
           price="Ksh 400"
-          image="https://via.placeholder.com/50"
+          image={Ricano}
         />
       </div>
     </div>
