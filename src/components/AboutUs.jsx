@@ -32,7 +32,7 @@ function AboutUs() {
           <div className="w-full lg:w-3/4 mt-6 lg:mt-0 p-6 lg:p-10 text-center lg:text-left">
             <p
               style={{ fontFamily: 'Poppins' }}
-              className="lg:text-[1.10em] sm:text-[0.775em] mt-4 leading-relaxed"
+              className="lg:text-[1.10em] sm:text-[0.875em] mt-4 leading-relaxed"
             >
               Kahawa Ke, where coffee and comfort come together in perfect harmony.
               Nestled in the heart of Nairobi, Kenya. We pride ourselves on offering a

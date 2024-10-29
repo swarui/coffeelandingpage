@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Menu from "./components/Menu";
 import AboutUs from "./components/AboutUs";
+import Service from './components/Service'
 function App() {
   return (
     <>
@@ -9,6 +10,8 @@ function App() {
       <Home />
       <Menu />
       <AboutUs />
+      <Service/>
+
     </>
   );
 }

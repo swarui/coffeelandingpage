@@ -14,7 +14,7 @@ function Home() {
           </h1>
           <h2
             style={{ fontFamily: "Poppins" }}
-            className=" text-orange-800 font-semibold mt-[-1.5em] sm:text-[0.9em] lg:text-[1.5em] "
+            className=" text-orange-800 font-semibold mt-[-1.5em]  text-[1.5em] "
           >
             {" "}
             Awaken your senses
@@ -22,7 +22,7 @@ function Home() {
         
           <h2
             style={{ fontFamily: "Poppins" }}
-            className="lg:text-[1.10em] sm:text-[0.775em] mt-4 leading-relaxed "
+            className="lg:text-[1.10em] sm:text-[0.975em] mt-4 leading-relaxed "
           >
             Because life is too short for brand coffee.Our brews are an
             invitation to taste, to feel, too savor with our Kenyan Brewed
