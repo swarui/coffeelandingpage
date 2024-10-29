@@ -9,6 +9,10 @@ import Iced from '../assets/Iced.jpeg';
 import Latte from '../assets/Latte.jpeg';
 import Mocha from '../assets/Mocha.jpeg';
 import Ricano from '../assets/Ricano.png';
+import Americano from '../assets/Americano.jpeg'
+import Breve from '../assets/Breve.png'
+import Cappuccino from '../assets/Capucino.jpeg'
+import Corado from '../assets/Corado.jpeg'
 
 function Service() {
   const slides = [
@@ -16,6 +20,11 @@ function Service() {
     { id: 2, img: Latte, title: "Creamy Latte Art", description: "Indulge in the art of a perfect latte.", link: "#" },
     { id: 3, img: Mocha, title: "Mocha Delights", description: "Savor the blend of chocolate and coffee.", link: "#" },
     { id: 4, img: Ricano, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
+    { id: 5, img: Americano, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
+    { id: 6, img: Breve, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
+    { id: 7, img: Cappuccino, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
+    { id: 8, img: Corado, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
+
   ];
 
   return (
