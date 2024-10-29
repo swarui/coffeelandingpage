@@ -1,27 +1,49 @@
-import img from '../assets/About.png'
-function AboutUs(){
-    return(<>
+import img from '../assets/About.png';
 
-<div className="mt-10 ">
+function AboutUs() {
+  return (
+    <>
+      <div className="mt-10 bg-[#f8f5f2] py-10 px-5">
+        {/* Section Title */}
         <h1
           style={{ fontFamily: "Poppins" }}
-          className="text-center text-[1.5em] text-black "
+          className="text-center text-3xl font-bold text-[#3e2723] mb-2"
         >
           Who are we?
         </h1>
-        <h2 style={{ fontFamily: "Poppins" }}
-          className="text-center text-[0.8em] text-blue-600" >About Us</h2>
-    <div className="flex lg:flex-row flex-col max-w-6xl mx-auto ">
-        {/* Left Image body */}
-        <div className="w-full lg:w-1/2">
-        <img src={img}  className='mt-[-20vh] ml-20 lg:w-[450px] sm:w-[250px] md:w-[550px] ' alt="" />
+        <h2
+          style={{ fontFamily: "Poppins" }}
+          className="text-center text-lg text-blue-600  mb-6"
+        >
+          About Us
+        </h2>
+
+        <div className="flex lg:flex-row flex-col max-w-6xl mx-auto items-center lg:space-x-10">
+          {/* Left Image */}
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              src={img}
+              className="lg:w-[400px] sm:w-[250px] md:w-[300px] rounded-full shadow-lg"
+              alt="Coffee cup"
+            />
+          </div>
+
+          {/* Right Text */}
+          <div className="w-full lg:w-3/4 mt-6 lg:mt-0 p-6 lg:p-10 text-center lg:text-left">
+            <p
+              style={{ fontFamily: 'Poppins' }}
+              className="lg:text-[1.10em] sm:text-[0.775em] mt-4 leading-relaxed"
+            >
+              Kahawa Ke, where coffee and comfort come together in perfect harmony.
+              Nestled in the heart of Nairobi, Kenya. We pride ourselves on offering a
+              unique experience for coffee lovers and travelers alike. At Kahawa Ke, we
+              believe that great coffee isn't just a drink—it's a lifestyle.
+            </p>
+          </div>
         </div>
-        {/* Right text Area */}
-        <div className='w-full lg:w-1/2 p-10'>
-        <h2  style={{fontFamily:'Poppins'}} >Kahawa Ke, where coffee and comfort come together in perfect harmony. Nestled in the heart of Nairobi,Kenya.We pride ourselves on offering a unique experience for coffee lovers and travelers alike. At Kahawa Ke, we believe that great coffee isn't just a drink—it's a lifestyle.</h2>
-        </div>
-        </div>
-    </div>
-    </>)
+      </div>
+    </>
+  );
 }
-export default AboutUs  
+
+export default AboutUs;

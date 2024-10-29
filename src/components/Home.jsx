@@ -7,21 +7,22 @@ function Home() {
         {/* Left Text Body */}
         <div className="w-full lg:w-1/2  lg:mt-20 p-10 lg:ml-10 flex flex-col  lg:text-left  ">
           <h1
-            className="text-[10.5em] font-bold  text-orange-800"
+            className=" text-[10.5em]  font-bold  text-orange-800"
             style={{ fontFamily: "moonet" }}
           >
             KAHAWA
           </h1>
           <h2
             style={{ fontFamily: "Poppins" }}
-            className=" text-orange-800 font-semibold mt-[-1.5em] text-[1.5em] "
+            className=" text-orange-800 font-semibold mt-[-1.5em] sm:text-[0.9em] lg:text-[1.5em] "
           >
             {" "}
             Awaken your senses
           </h2>
+        
           <h2
             style={{ fontFamily: "Poppins" }}
-            className="text-[0.940em] mt-4 "
+            className="lg:text-[1.10em] sm:text-[0.775em] mt-4 leading-relaxed "
           >
             Because life is too short for brand coffee.Our brews are an
             invitation to taste, to feel, too savor with our Kenyan Brewed
@@ -47,7 +48,7 @@ function Home() {
         <div className=" w-full lg:w-1/2 flex justify-center  ">
           {" "}
           <img
-            className="  lg:w-[600px] sm:w-[50px] md:w-[250px] "
+            className="  lg:w-[600px] sm:w-[350px] md:w-[250px] "
             src={Kahawa2}
             alt=""
           />{" "}

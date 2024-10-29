@@ -17,7 +17,7 @@ function Navbar() {
         className=" top-0 left-0 w-full h-16 flex justify-between z-50 text-white lg:py-2 px-10   mt-5 "
       >
         <div className="flex items-center">
-          <img src={Logo} className=" fixed  w-20 h-auto lg:mt-[-10px] " alt="Logo" />
+          <img src={Logo} className=" fixed  w-20 h-auto lg:mt-[-20px] " alt="Logo" />
         </div>
         {/* The opening and closing icon */}
         <div className="lg:hidden flex items-center">
@@ -54,7 +54,7 @@ function Navbar() {
 
       <div
         style={{ fontFamily: "Poppins" }}
-        className={`fixed  top-0 right-0 h-full w-48 overflow-visible  text-black  bg-blue-700 transform ${
+        className={`fixed  top-0 right-0  w-full h-20vh text-center overflow-visible  text-black  bg-white bg-opacity-40 backdrop-blur-lg  transform ${
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out lg:hidden `}
       >

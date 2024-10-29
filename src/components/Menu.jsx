@@ -34,12 +34,12 @@ function Menu() {
     <div className="min-h-screen p-8 ">
        <h1
           style={{ fontFamily: "Poppins" }}
-          className="text-center text-[1.5em] mt-10 text-black "
+          className="text-center text-3xl mt-10 font-bold text-[#3e2723] "
         >
           Who are we?
         </h1>
         <h2 style={{ fontFamily: "Poppins" }}
-          className="text-center text-[0.8em] text-blue-600" >About Us</h2>
+          className="text-center text-lg text-blue-600" >About Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-20 ">
         {/* Manually defined menu items */}
         <MenuItem  
