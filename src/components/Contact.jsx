@@ -22,7 +22,7 @@ function Contact() {
    
         {/* Contact From  */}
         <div className="w-full  md:w-1/2">
-          <form className="flex flex-col">
+          <form className="flex flex-col space-y-4">
             <input
               type="text"
               placeholder="Your Name"
@@ -48,7 +48,7 @@ function Contact() {
         </div>
         {/* Image Section  */}
         <div className="w-full md:w-1/2 flex items-center justify-center">
-          <img src={Mocha} alt="" />
+          <img src={Mocha} className="w-50 h-50" alt="" />
         </div>
       </section>
     </>
