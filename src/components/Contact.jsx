@@ -60,11 +60,14 @@ function Contact() {
               className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             />
             </div>
+            <div className="flex flex-col ">
+            <h2>Last Name</h2>
             <textarea
               placeholder="Your Message"
               rows={4}
               className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
             />
+            </div>
             <button type="submit">Send Message </button>
           </form>
         </div>
