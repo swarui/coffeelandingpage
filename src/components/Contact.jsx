@@ -3,8 +3,7 @@ import Mocha from "../assets/Mocha.jpeg";
 function Contact() {
   return (
     <>
-      <div className="text-center mt-20 ">
-        {" "}
+      <div className="text-center mt-20">
         <h1
           style={{ fontFamily: "Poppins" }}
           className="text-center text-3xl font-bold text-[#3e2723] mb-2"
@@ -13,81 +12,99 @@ function Contact() {
         </h1>
         <h2
           style={{ fontFamily: "Poppins" }}
-          className="text-center  text-lg text-blue-600  mb-6"
+          className="text-center text-lg text-blue-600 mb-6"
         >
           Reach Out
-        </h2>{" "}
+        </h2>
       </div>
       <section
         style={{ fontFamily: "Poppins" }}
         className="flex flex-col md:flex-row items-center justify-center p-8"
       >
-        {/* Contact From  */}
-        <div className="w-full  md:w-1/2">
-          <form className="flex flex-col space-y-4 p-10  bg-orange-800 border rounded-lg ">
+        {/* Contact Form */}
+        <div className="w-full md:w-1/2">
+          <form className="flex flex-col space-y-4 p-10  border bg-orange-100 border-orange-800 rounded-lg">
             <div className="flex flex-row w-full space-x-4">
               <div className="flex flex-col w-1/2">
-                <h2 className="">First Name</h2>
-
+                <h2 className="mb-1">First Name</h2> {/* Reduced margin-bottom */}
                 <input
-                  
-                  placeholder="First Name"
                   type="text"
-                  className="p-3 border-b border-gray-300 focus:outline-none focus:border-blue-500"
-                  style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none",height:'7vh' }}                  
+                  className=" border-b border-black focus:outline-none focus:border-orange-800 "
+                  style={{
+                    borderRadius: "0",
+                    borderTop: "none",
+                    borderLeft: "none",
+                    borderRight: "none",
+                    height: '7vh'
+                  }}
                 />
               </div>
               <div className="flex flex-col w-1/2">
-                <h2>Last Name</h2>
+                <h2 className="mb-1">Last Name</h2> {/* Reduced margin-bottom */}
                 <input
                   type="text"
-                  placeholder="Last Name"
-                  className=" flex flex-row p-3   rounded-md  "
-                  style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none",height:'7vh' }}                  
-
+                  className=" border-b border-black focus:outline-none focus:border-orange-800 "
+                  style={{
+                    borderRadius: "0",
+                    borderTop: "none",
+                    borderLeft: "none",
+                    borderRight: "none",
+                    height: '7vh'
+                  }}
                 />
               </div>
             </div>
-            <div className="flex flex-col ">
-            <h2>Email Adress</h2>
-            <input
-              type="email"
-              placeholder="Your Email Address"
-              className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
-              style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none",height:'7vh' }}                  
-
-            />
+            <div className="flex flex-col">
+              <h2 className="">Email Address</h2> {/* Reduced margin-bottom */}
+              <input
+                type="email"
+                className=" border-b border-black focus:outline-none focus:border-orange-800 "
+                style={{
+                  borderRadius: "0",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderRight: "none",
+                  height: '7vh'
+                }}
+              />
             </div>
-            <div className="flex flex-col ">
-            <h2>Phone Number</h2>
-            <input
-              type="tel"
-              placeholder="Your Phone Number"
-              className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
-              style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none",height:'7vh' }}                  
-
-            />
+            <div className="flex flex-col">
+              <h2 className="">Phone Number</h2> {/* Reduced margin-bottom */}
+              <input
+                type="tel"
+                className=" border-b border-black focus:outline-none focus:border-orange-800 "
+                style={{
+                  borderRadius: "0",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderRight: "none",
+                  height: '7vh'
+                }}
+              />
             </div>
-            <div className="flex flex-col ">
-            <h2>Last Name</h2>
-            <textarea
-              placeholder="Your Message"
-              rows={4}
-              className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
-              style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none", }}                  
-
-            />
-            
+            <div className="flex flex-col">
+              <h2 className="">Your Message</h2> {/* Reduced margin-bottom */}
+              <textarea
+                rows={3}
+                className=" border-b border-black focus:outline-none focus:border-orange-800 "
+                 style={{
+                  borderRadius: "0",
+                  borderTop: "none",
+                  borderLeft: "none",
+                  borderRight: "none",
+                }}
+              />
             </div>
-            <button type="submit">Send Message </button>
+            <button type="submit" className="mt-4">Send Message</button>
           </form>
         </div>
-        {/* Image Section  */}
+        {/* Image Section */}
         <div className="w-full md:w-1/2 flex items-center justify-center">
-          <img src={Mocha} className="w-3/4 " alt="" />
+          <img src={Mocha} className="w-3/4" alt="" />
         </div>
       </section>
     </>
   );
 }
+
 export default Contact;
