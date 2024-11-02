@@ -34,7 +34,7 @@ function Contact() {
                   placeholder="First Name"
                   type="text"
                   className="p-3 border-b border-gray-300 focus:outline-none focus:border-blue-500"
-                  style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none" }}                  
+                  style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none",height:'7vh' }}                  
                 />
               </div>
               <div className="flex flex-col w-1/2">
@@ -43,6 +43,8 @@ function Contact() {
                   type="text"
                   placeholder="Last Name"
                   className=" flex flex-row p-3   rounded-md  "
+                  style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none",height:'7vh' }}                  
+
                 />
               </div>
             </div>
@@ -52,6 +54,8 @@ function Contact() {
               type="email"
               placeholder="Your Email Address"
               className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+              style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none",height:'7vh' }}                  
+
             />
             </div>
             <div className="flex flex-col ">
@@ -60,6 +64,8 @@ function Contact() {
               type="tel"
               placeholder="Your Phone Number"
               className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+              style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none",height:'7vh' }}                  
+
             />
             </div>
             <div className="flex flex-col ">
@@ -68,7 +74,10 @@ function Contact() {
               placeholder="Your Message"
               rows={4}
               className="p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+              style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none", }}                  
+
             />
+            
             </div>
             <button type="submit">Send Message </button>
           </form>

@@ -11,7 +11,7 @@ import Ricano from '../assets/Ricano.png'
 function MenuItem({ title, description, price, image }) {
   return (
     <>
-      <div  style={{fontFamily:'Poppins'}}    className="flex items-center justify-between p-4 bg-orange-800 rounded-lg shadow-lg">
+      <div  style={{fontFamily:'Poppins'}}    className="flex items-center justify-between p-4 bg-[#804933] rounded-lg shadow-lg">
         {/* Coffee Image */}
         
         <div className="flex items-center gap-4">
