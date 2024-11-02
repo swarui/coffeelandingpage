@@ -24,15 +24,17 @@ function Contact() {
       >
         {/* Contact From  */}
         <div className="w-full  md:w-1/2">
-          <form className="flex flex-col space-y-4 p-10 bg-red-600 border rounded-lg ">
+          <form className="flex flex-col space-y-4 p-10  bg-orange-800 border rounded-lg ">
             <div className="flex flex-row w-full space-x-4">
               <div className="flex flex-col w-1/2">
                 <h2 className="">First Name</h2>
 
                 <input
-                  type="text"
+                  
                   placeholder="First Name"
-                  className="   p-3 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                  type="text"
+                  className="p-3 border-b border-gray-300 focus:outline-none focus:border-blue-500"
+                  style={{ borderRadius: "0", borderTop: "none", borderLeft: "none", borderRight: "none" }}                  
                 />
               </div>
               <div className="flex flex-col w-1/2">
