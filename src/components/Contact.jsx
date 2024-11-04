@@ -2,7 +2,9 @@ import Mocha from "../assets/Mocha.jpeg";
 
 function Contact() {
   return (
+    
     <>
+    <div id="contact" >
       <div className="text-center mt-20">
         <h1
           style={{ fontFamily: "Poppins" }}
@@ -100,9 +102,10 @@ function Contact() {
         </div>
         {/* Image Section */}
         <div className="w-full md:w-1/2 flex  items-center justify-center">
-          <img src={Mocha} className="w-3/4" alt="" />
+          <img src={Mocha} className="w-3/4 h-90" alt="" />
         </div>
       </section>
+      </div>
     </>
   );
 }

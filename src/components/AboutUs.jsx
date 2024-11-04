@@ -3,6 +3,7 @@ import img from '../assets/About.png';
 function AboutUs() {
   return (
     <>
+    <div  id='about' >
       <div className="mt-10 bg-[#f8f5f2] py-10 px-5">
         {/* Section Title */}
         <h1
@@ -32,7 +33,7 @@ function AboutUs() {
           <div className="w-full lg:w-3/4 mt-6 lg:mt-0 p-6 lg:p-10 text-center lg:text-left">
             <p
               style={{ fontFamily: 'Poppins' }}
-              className="lg:text-[1.0em] sm:text-[0.875em] mt-4 leading-relaxed"
+              className="lg:text-[1.0em] sm:text-[0.975em] mt-4 leading-relaxed"
             >
               Kahawa Ke, where coffee and comfort come together in perfect harmony.
               Nestled in the heart of Nairobi, Kenya. We pride ourselves on offering a
@@ -41,6 +42,7 @@ function AboutUs() {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

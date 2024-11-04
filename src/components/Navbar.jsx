@@ -11,6 +11,7 @@ function Navbar() {
 
   return (
     <>
+    
       {/* Main Body */}
       <div
         style={{ fontFamily: "Poppins" }}
@@ -37,11 +38,12 @@ function Navbar() {
         {/* Main Navbar */}
         <div className=" fixed hidden lg:flex items-center justify-center w-full text-black  ">
           <ul className="flex flex-row gap-8 text-[15px] cursor-pointer ">
-            <li>Home </li>
-            <li>Menu</li>
-            <li>About Us</li>
+          <a href="#home"> <li>Home </li></a>  
+             <a href="#menu"><li>Menu</li></a> 
+             <a href="#about"><li>About Us</li></a> 
             {/* <li>Locations </li> */}
             <li>Partners </li>
+            <a href="#contact"><li>Contact</li></a>
           </ul>
         </div>
         <div className="hidden lg:flex fixed right-10 ">

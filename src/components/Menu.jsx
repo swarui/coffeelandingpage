@@ -11,11 +11,11 @@ import Ricano from '../assets/Ricano.png'
 function MenuItem({ title, description, price, image }) {
   return (
     <>
-      <div  style={{fontFamily:'Poppins'}}    className="flex items-center justify-between p-4 bg-[#804933] rounded-lg shadow-lg">
+      <div  style={{fontFamily:'Poppins'}}    className="flex items-center  justify-between p-4 bg-[#804933] rounded-lg shadow-lg">
         {/* Coffee Image */}
         
         <div className="flex items-center gap-4">
-          <img src={image} alt={title} className="w-16 h-16 rounded-full" />
+          <img src={image} alt={title} className="w-16 h-16 border border-black rounded-full" />
           {/* Title and Description */}
           <div>
             <h3 className="text-white font-semibold ">{title}</h3>
@@ -31,15 +31,17 @@ function MenuItem({ title, description, price, image }) {
 
 function Menu() {
   return (
+    <div id="menu" >
+
     <div className="min-h-screen p-8 ">
        <h1
           style={{ fontFamily: "Poppins" }}
           className="text-center text-3xl mt-10 font-bold text-[#3e2723] "
         >
-          Who are we?
+          Menu
         </h1>
         <h2 style={{ fontFamily: "Poppins" }}
-          className="text-center text-lg text-blue-600" >About Us</h2>
+          className="text-center text-lg text-blue-600" >Best Selling</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-20 ">
         {/* Manually defined menu items */}
         <MenuItem  
@@ -94,6 +96,7 @@ function Menu() {
           image={Ricano}
         />
       </div>
+    </div>
     </div>
   );
 }

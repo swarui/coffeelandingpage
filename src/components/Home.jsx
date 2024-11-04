@@ -3,6 +3,7 @@ import Kahawa2 from '../assets/Kahawa2.png';
 function Home() {
   return (
     <>
+    <div  id='#home' >
       {/* Main Body */}
       <div className="flex lg:flex-row flex-col h-full min-h-screen">
         {/* Left Text Body */}
@@ -53,6 +54,7 @@ function Home() {
             alt="Kahawa coffee"
           />
         </div>
+      </div>
       </div>
     </>
   );
