@@ -22,7 +22,7 @@ function Contact() {
         className="flex flex-col md:flex-row items-start justify-center p-8"
       >
         {/* Contact Form */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full min-h-[300px] md:w-1/2">
           <form className="flex flex-col space-y-4 p-10  border bg-orange-100 border-orange-800 rounded-lg">
             <div className="flex flex-row w-full space-x-4">
               <div className="flex flex-col w-1/2">
@@ -99,7 +99,7 @@ function Contact() {
           </form>
         </div>
         {/* Image Section */}
-        <div className="w-full md:w-1/2 flex items-center justify-center">
+        <div className="w-full md:w-1/2 flex  items-center justify-center">
           <img src={Mocha} className="w-3/4" alt="" />
         </div>
       </section>

@@ -46,7 +46,7 @@ function Home() {
         </div>
 
         {/* Image Container */}
-        <div className="w-full lg:w-1/2 flex justify-center items-center min-h-screen">
+        <div className="w-full lg:w-1/2 flex justify-center items-center ">
           <img
             className="w-full h-full object-cover lg:max-w-[600px] lg:max-h-[600px]"
             src={Kahawa2}

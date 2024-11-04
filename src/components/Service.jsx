@@ -46,20 +46,20 @@ function Service() {
         pagination={{ clickable: true }}
         autoplay={{ delay: 3000 }}
         loop
-        slidesPerView={3}
+        slidesPerView={1}
         spaceBetween={20}
         breakpoints={{
-            640:{slidesPerView:3,},
+            640:{slidesPerView:1,},
+            768:{slidesPerView: 2},
             1024: { // Screen width 1024px and up
                 slidesPerView: 3, // Show 3 slides at a time
               },
-              768:{slidesPerView: 2},
         }}
         className="rounded-lg shadow-lg mt-20"
       >
         {slides.map(slide => (
           <SwiperSlide key={slide.id}>
-            <div className="bg-[#4b3b34] rounded-lg overflow-hidden shadow-lg flex flex-col h-full">
+            <div className="bg-[#804933] -lg overflow-hidden shadow-lg flex flex-col h-full">
               <img
                 src={slide.img}
                 alt={slide.title}
