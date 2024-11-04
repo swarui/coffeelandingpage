@@ -19,7 +19,7 @@ function Contact() {
       </div>
       <section
         style={{ fontFamily: "Poppins" }}
-        className="flex flex-col md:flex-row items-center justify-center p-8"
+        className="flex flex-col md:flex-row items-start justify-center p-8"
       >
         {/* Contact Form */}
         <div className="w-full md:w-1/2">
