@@ -55,7 +55,7 @@ function Service() {
                 slidesPerView: 3, // Show 3 slides at a time
               },
         }}
-        className="rounded-lg shadow-lg mt-20"
+        className="rounded-lg shadow-lg mt-20 lg:m-0 sm:m-10 "
       >
         {slides.map(slide => (
           <SwiperSlide key={slide.id}>

@@ -38,11 +38,11 @@ function Menu() {
           style={{ fontFamily: "Poppins" }}
           className="text-center text-3xl mt-10 font-bold text-[#3e2723] "
         >
-          Menu
+          Menuf
         </h1>
         <h2 style={{ fontFamily: "Poppins" }}
           className="text-center text-lg text-blue-600" >Best Selling</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-20 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto mt-10 ">
         {/* Manually defined menu items */}
         <MenuItem  
           title="Breve Coffee"
