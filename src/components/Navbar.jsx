@@ -36,7 +36,7 @@ function Navbar() {
       {/* Main Body */}
       <div
         style={{ fontFamily: "Poppins" , backgroundColor: "#EFE0BB"}}
-        className={`fixed top-0 left-0 w-full h-16 flex justify-between z-50 text-white lg:py-2 px-10  transition-transform duration-300 ${
+        className={`fixed top-0 left-0 w-full h-16 flex justify-between z-50 text-black lg:py-2 px-10  transition-transform duration-300 ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
         }`}
       >
@@ -48,11 +48,11 @@ function Navbar() {
           <button onClick={toggleMenu} className="flex items-center">
             <FaBarsStaggered
               size={20}
-              className={`text-white mr-5 ${isOpen ? "hidden" : "block"}`}
+              className={`text-black mr-5 ${isOpen ? "hidden" : "block"}`}
             />
             <LiaTimesCircleSolid
               size={30}
-              className={`z-10 mr-3 text-white cursor-pointer ${
+              className={`z-10 mr-3 text-black cursor-pointer ${
                 isOpen ? "block" : "hidden"
               } `}
             />
@@ -82,12 +82,12 @@ function Navbar() {
           isOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out lg:hidden`}
       >
-        <ul className="flex flex-col gap-3 mt-10 text-lg cursor-pointer px-4 text-[0.875em]">
-          <li onClick={toggleMenu}>Home</li>
-          <li onClick={toggleMenu}>Menu</li>
-          <li onClick={toggleMenu}>About Us</li>
-          <li onClick={toggleMenu}>Partners</li>
-          <li onClick={toggleMenu}>Get Voucher</li>
+        <ul className="flex flex-col gap-3 mt-10 text-lg cursor-pointer px-4 font-medium text-[0.875em]">
+          <li   onClick={toggleMenu}>Home</li>
+          <li   onClick={toggleMenu}>Menu</li>
+          <li   onClick={toggleMenu}>About Us</li>
+          <li   onClick={toggleMenu}>Partners</li>
+          <li   onClick={toggleMenu}>Get Voucher</li>
         </ul>
       </div>
     </>

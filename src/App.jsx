@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div style={{ backgroundColor: "#EFE0BB", minHeight: "100vh" }}>
+    <div style={{ backgroundColor: "#FFFAF1" }}>
       <Navbar />
       <Home />
       <Menu />
