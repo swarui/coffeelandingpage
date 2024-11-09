@@ -10,3 +10,22 @@
     font-family: moonet;
     src: url(../src/assets/fonts/Moonet.otf);
 }
+.swiper-button-next, .swiper-button-prev {
+    color: #15b673; /* Set the color you want for the arrows */
+  }
+  
+/* Custom styles for Swiper pagination dots */
+.swiper-pagination {
+    bottom: 10px; /* Adjust the position of the pagination dots if needed */
+  }
+  
+  /* Normal (inactive) dots */
+ 
+  /* Active dot */
+  .swiper-pagination-bullet-active {
+    background-color: #bfa06b; /* Custom color for the active dot */
+    opacity: 1; /* Fully opaque for the active dot */
+  }
+  
+
+  
