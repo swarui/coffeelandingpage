@@ -65,6 +65,8 @@ function Navbar() {
             <a href="#home"><li>Home</li></a>  
             <a href="#menu"><li>Menu</li></a> 
             <a href="#about"><li>About Us</li></a> 
+            <a href="#about"><li>Service</li></a> 
+
             <a href="#contact"><li>Contact</li></a>
           </ul>
         </div>
@@ -90,8 +92,8 @@ function Navbar() {
           <li   onClick={toggleMenu}>Home</li>
           <li   onClick={toggleMenu}>Menu</li>
           <li   onClick={toggleMenu}>About Us</li>
-          <li   onClick={toggleMenu}>Partners</li>
-          <li   onClick={toggleMenu}>Get Voucher</li>
+          <li   onClick={toggleMenu}>Service</li>
+          <li   onClick={toggleMenu}>Contact</li>
         </ul>
       </div>
     </>
