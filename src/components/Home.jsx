@@ -3,7 +3,7 @@ import Kahawa2 from '../assets/Kahawa2.png';
 function Home() {
   return (
     <>
-    <div  id='#home' >
+    <div  id='home' >
       {/* Main Body */}
       <div className="flex lg:flex-row flex-col h-full min-h-screen lg:mt-10">
         {/* Left Text Body */}

@@ -41,7 +41,8 @@ function Navbar() {
         }`}
       >
         <div className="flex items-center">
-          <img src={Logo} className="w-20 h-auto" alt="Logo" />
+          <a href="#home">          <img src={Logo} className="w-20 h-auto" alt="Logo" />
+          </a>
         </div>
         {/* The opening and closing icon */}
         <div className="lg:hidden flex items-center">
