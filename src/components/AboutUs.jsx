@@ -4,7 +4,7 @@ function AboutUs() {
   return (
     <>
     <div  id='about' >
-      <div className="mt-10 bg-[#f8f5f2] py-10 px-5">
+      <div className="mt-10  py-10 px-5">
         {/* Section Title */}
         <h1
           style={{ fontFamily: "Poppins" }}

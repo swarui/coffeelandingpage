@@ -35,8 +35,8 @@ function Navbar() {
     <>
       {/* Main Body */}
       <div
-        style={{ fontFamily: "Poppins" }}
-        className={`fixed top-0 left-0 w-full h-16 flex justify-between z-50 text-white lg:py-2 px-10 bg-red-200 transition-transform duration-300 ${
+        style={{ fontFamily: "Poppins" , backgroundColor: "#EFE0BB"}}
+        className={`fixed top-0 left-0 w-full h-16 flex justify-between z-50 text-white lg:py-2 px-10  transition-transform duration-300 ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
         }`}
       >
