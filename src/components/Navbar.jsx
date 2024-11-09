@@ -64,14 +64,17 @@ function Navbar() {
             <a href="#home"><li>Home</li></a>  
             <a href="#menu"><li>Menu</li></a> 
             <a href="#about"><li>About Us</li></a> 
-            <li>Partners</li>
             <a href="#contact"><li>Contact</li></a>
           </ul>
         </div>
         <div className="hidden lg:flex fixed right-10">
-          <button className="bg-gradient-to-r from-yellow-700 text-white transition duration-500 hover:bg-green-700 rounded-full px-3 py-2 shadow-lg text-[0.795em]">
+        <a href="mailto:mainastevew.com">
+        <button className="bg-gradient-to-r from-yellow-500 to-yellow-800 text-black transition duration-500 hover:bg-green-700 rounded-full px-3 py-2 shadow-lg text-[0.795em]">
             Get Voucher
           </button>
+        </a>
+        
+          
         </div>
       </div>
 
