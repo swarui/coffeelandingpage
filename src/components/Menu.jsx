@@ -38,7 +38,7 @@ function Menu() {
           style={{ fontFamily: "Poppins" }}
           className="text-center text-3xl mt-10 font-bold text-[#3e2723] "
         >
-          Menuf
+          Menu
         </h1>
         <h2 style={{ fontFamily: "Poppins" }}
           className="text-center text-lg text-blue-600" >Best Selling</h2>
