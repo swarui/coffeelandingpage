@@ -13,6 +13,13 @@ import Americano from '../assets/Americano.jpeg'
 import Breve from '../assets/Breve.png'
 import Cappuccino from '../assets/Capucino.jpeg'
 import Corado from '../assets/Corado.jpeg'
+import Brew1 from '../assets/Brew1.jpeg';
+import Brew2 from '../assets/Brew2.jpeg';
+import Brew3 from '../assets/Brew3.png';
+import Brew4 from '../assets/Brew4.png';
+
+
+
 
 function Service() {
   const slides = [
@@ -20,10 +27,10 @@ function Service() {
     { id: 2, img: Latte, title: "Creamy Latte Art", description: "Indulge in the art of a perfect latte.", link: "#" },
     { id: 3, img: Mocha, title: "Mocha Delights", description: "Savor the blend of chocolate and coffee.", link: "#" },
     { id: 4, img: Ricano, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
-    { id: 5, img: Americano, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
-    { id: 6, img: Breve, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
-    { id: 7, img: Cappuccino, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
-    { id: 8, img: Corado, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
+    { id: 5, img: Brew4, title: "Coffee Tasting Experiences", description: "Dive into the World of Flavors with Our Exclusive Coffee Tasting Experience ☕✨", link: "#" },
+    { id: 6, img: Brew1, title: "Special Brewed Coffee", description: "Savor the Moment with freshly Brewed Coffee.Unique flavors in every brew.", link: "#" },
+    { id: 7, img: Brew3, title: "Ready Coffee Beans", description: "Elevate your brew at home with aromatic beans for the ultimate coffee experience.", link: "#" },
+    { id: 8, img: Brew2, title: "Special Ricano", description: "Experience the Art in Every Cup! Indulge in expertly crafted barista creations", link: "#" },
 
   ];
 
@@ -58,27 +65,28 @@ function Service() {
         className="rounded-lg shadow-lg mt-20 lg:m-0 sm:m-10 "
       >
         {slides.map(slide => (
-          <SwiperSlide key={slide.id}>
-            <div className="bg-[#804933] -lg overflow-hidden shadow-lg flex flex-col h-full">
-              <img
-                src={slide.img}
-                alt={slide.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-4 flex flex-col justify-between flex-grow">
-                <div>
-                  <h3 className="text-xl font-semibold">{slide.title}</h3>
-                  <p className="text-sm text-gray-300 mt-2">{slide.description}</p>
-                </div>
-                <div className="mt-4">
-                  <a href={slide.link} className="flex items-center text-sm text-[#d2a679] hover:text-[#bfa06b]">
-                    Learn More
-                    <span className="ml-2 text-xl">→</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
+         <SwiperSlide key={slide.id}>
+  <div className="bg-[#804933] overflow-hidden shadow-lg flex flex-col h-full rounded-lg">
+    <img
+      src={slide.img}
+      alt={slide.title}
+      className="w-full h-60 sm:h-48 md:h-56 lg:h-48 xl:h-60 object-cover" // Adjusts height based on screen size
+    />
+    <div className="p-4 flex flex-col justify-between flex-grow">
+      <div>
+        <h3 className="text-xl font-semibold">{slide.title}</h3>
+        <p className="text-sm text-gray-300 mt-2">{slide.description}</p>
+      </div>
+      <div className="mt-4">
+        <a href={slide.link} className="flex items-center text-sm text-[#d2a679] hover:text-[#bfa06b]">
+          Learn More
+          <span className="ml-2 text-xl">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</SwiperSlide>
+
         ))}
       </Swiper>
     </div>
