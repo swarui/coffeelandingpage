@@ -26,7 +26,7 @@ function Service() {
     { id: 1, img: Iced, title: "Best Coffee Flavor", description: "Experience the rich taste of our coffee.", link: "#" },
     { id: 2, img: Latte, title: "Creamy Latte Art", description: "Indulge in the art of a perfect latte.", link: "#" },
     { id: 3, img: Mocha, title: "Mocha Delights", description: "Savor the blend of chocolate and coffee.", link: "#" },
-    { id: 4, img: Ricano, title: "Special Ricano", description: "Unique flavors in every sip.", link: "#" },
+    { id: 4, img: Ricano, title: "Corporate & Event Catering", description: "Unique flavors in every sip.", link: "#" },
     { id: 5, img: Brew4, title: "Coffee Tasting Experiences", description: "Dive into the World of Flavors with Our Exclusive Coffee Tasting Experience ☕✨", link: "#" },
     { id: 6, img: Brew1, title: "Special Brewed Coffee", description: "Savor the Moment with freshly Brewed Coffee.Unique flavors in every brew.", link: "#" },
     { id: 7, img: Brew3, title: "Ready Coffee Beans", description: "Elevate your brew at home with aromatic beans for the ultimate coffee experience.", link: "#" },
