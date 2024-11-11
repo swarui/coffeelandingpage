@@ -65,17 +65,17 @@ function Service() {
                 slidesPerView: 3, // Show 3 slides at a time
               },
         }}
-        className="rounded-lg shadow-lg mt-20 lg:m-0 sm:m-10 "
+        className="  lg:p-0  sm:p-5 rounded-lg shadow-lg mt-20 lg:m-0 sm:m-10 "
       >
         {slides.map(slide => (
          <SwiperSlide key={slide.id}>
-  <div className="bg-[#804933] overflow-hidden shadow-lg flex flex-col h-full rounded-lg">
+  <div className="bg-[#804933]  overflow-hidden shadow-lg flex flex-col h-full rounded-lg">
     <img
       src={slide.img}
       alt={slide.title}
       className="w-full h-60 sm:h-48 md:h-56 lg:h-48 xl:h-60 object-cover" // Adjusts height based on screen size
     />
-    <div className="p-4 flex flex-col justify-between flex-grow">
+    <div className="  p-4 flex flex-col justify-between flex-grow">
       <div>
         <h3 className="text-xl font-semibold">{slide.title}</h3>
         <p className="text-sm text-gray-300 mt-2">{slide.description}</p>

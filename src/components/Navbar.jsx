@@ -35,13 +35,15 @@ function Navbar() {
     <>
       {/* Main Body */}
       <div
-        style={{ fontFamily: "Poppins" , backgroundColor: "#EFE0BB"}}
+        style={{ fontFamily: "Poppins", backgroundColor: "#EFE0BB" }}
         className={`fixed top-0 left-0 w-full h-16 flex justify-between z-50 text-black lg:py-2 px-10  transition-transform duration-300 ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
         }`}
       >
         <div className="flex items-center">
-          <a href="#home">          <img src={Logo} className="w-20 h-auto" alt="Logo" />
+          <a href="#home">
+            {" "}
+            <img src={Logo} className="w-20 h-auto" alt="Logo" />
           </a>
         </div>
         {/* The opening and closing icon */}
@@ -62,22 +64,29 @@ function Navbar() {
         {/* Main Navbar */}
         <div className="hidden lg:flex items-center justify-center w-full text-black">
           <ul className="flex flex-row gap-8 text-[15px] cursor-pointer">
-            <a href="#home"><li>Home</li></a>  
-            <a href="#menu"><li>Menu</li></a> 
-            <a href="#about"><li>About Us</li></a> 
-            <a href="#about"><li>Service</li></a> 
-
-            <a href="#contact"><li>Contact</li></a>
+            <a href="#home">
+              <li>Home</li>
+            </a>
+            <a href="#menu">
+              <li>Menu</li>
+            </a>
+            <a href="#about">
+              <li>About Us</li>
+            </a>
+            <a href="#about">
+              <li>Service</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
           </ul>
         </div>
         <div className="hidden lg:flex fixed right-10">
-        <a href="mailto:mainastevew.com">
-        <button className="bg-gradient-to-r from-yellow-500 to-yellow-800 text-black transition duration-500 hover:bg-green-700 rounded-full px-3 py-2 shadow-lg text-[0.795em]">
-            Get Voucher
-          </button>
-        </a>
-        
-          
+          <a href="mailto:mainastevew.com">
+            <button className="bg-gradient-to-r from-yellow-500 to-yellow-800 text-black transition duration-500 hover:bg-green-700 rounded-full px-3 py-2 shadow-lg text-[0.795em]">
+              Get Voucher
+            </button>
+          </a>
         </div>
       </div>
 
@@ -89,11 +98,24 @@ function Navbar() {
         } transition-transform duration-300 ease-in-out lg:hidden`}
       >
         <ul className="flex flex-col gap-3 mt-10 text-lg cursor-pointer px-4 font-medium text-[0.875em]">
-          <li   onClick={toggleMenu}>Home</li>
-          <li   onClick={toggleMenu}>Menu</li>
-          <li   onClick={toggleMenu}>About Us</li>
-          <li   onClick={toggleMenu}>Service</li>
-          <li   onClick={toggleMenu}>Contact</li>
+          <a href="#home">
+            {" "}
+            <li onClick={toggleMenu}>Home</li>
+          </a>
+          <a href="#menu">
+            {" "}
+            <li onClick={toggleMenu}>Menu</li>
+          </a>
+          <a href="#about">
+            {" "}
+            <li onClick={toggleMenu}>About Us</li>
+          </a>
+          <a href="#service">
+            <li onClick={toggleMenu}>Service</li>
+          </a>
+          <a href="#contact">
+            <li onClick={toggleMenu}>Contact</li>
+          </a>
         </ul>
       </div>
     </>

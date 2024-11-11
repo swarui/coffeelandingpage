@@ -1,11 +1,10 @@
 import React from "react";
 import Americano from "../assets/Americano.jpeg";
-import Breve from "../assets/Breve.png";
 import Cappuccino from "../assets/Capucino.jpeg";
 import Corado from "../assets/Corado.jpeg";
 import Iced from "../assets/Iced.jpeg";
 import Latte from "../assets/Latte.jpeg";
-import Mocha from "../assets/Mocha.jpeg";
+import Brew from "../assets/Brew.jpeg";
 import Ricano from "../assets/Ricano.png";
 
 function MenuItem({ title, description, price, image }) {
@@ -21,7 +20,7 @@ function MenuItem({ title, description, price, image }) {
           <img
             src={image}
             alt={title}
-            className="w-16 h-16 border border-black rounded-full"
+            className="w-16 h-16 border border-black rounded-full object-cover"
           />
           {/* Title and Description */}
           <div>
@@ -58,7 +57,7 @@ function Menu() {
             title="Breve Coffee"
             description="A blend of Arabica coffee beans."
             price="Ksh 200"
-            image={Breve} // Replace with coffee image URL
+            image={Brew} // Replace with coffee image URL
           />
 
           <MenuItem
@@ -72,7 +71,7 @@ function Menu() {
             title="Mocha Coffee Brew"
             description="A strong and rich espresso brew."
             price="Ksh 300"
-            image={Mocha}
+            image={Brew}
           />
 
           <MenuItem
