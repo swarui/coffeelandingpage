@@ -27,14 +27,14 @@ import Brew6 from '../assets/Brew6.jpeg';
 
 function Service() {
   const slides = [
-    { id: 1, img: Iced, title: "Best Coffee Flavor", description: "Experience the rich taste of our coffee.", link: "#" },
-    { id: 2, img: Latte, title: "Creamy Latte Art", description: "Indulge in the art of a perfect latte.", link: "#" },
-    { id: 3, img: Brew6, title: "Outside Catering", description: "Bringing the Brew to You! Perfect Coffee for Any Event", link: "#" },
-    { id: 4, img: Brew5, title: "Take away Coffee", description: "Grab & Go! Freshly Brewed Coffee for Busy Days", link: "#" },
-    { id: 5, img: Brew4, title: "Coffee Tasting Experiences", description: "Dive into the World of Flavors with Our Exclusive Coffee Tasting Experience ☕✨", link: "#" },
-    { id: 6, img: Brew1, title: "Special Brewed Coffee", description: "Savor the Moment with freshly Brewed Coffee.Unique flavors in every brew.", link: "#" },
-    { id: 7, img: Brew3, title: "Ready Coffee Beans", description: "Elevate your brew at home with aromatic beans for the ultimate coffee experience.", link: "#" },
-    { id: 8, img: Brew2, title: "Special Ricano", description: "Experience the Art in Every Cup! Indulge in expertly crafted barista creations", link: "#" },
+    { id: 1, img: Iced, title: "Best Coffee Flavor", description: "Experience the rich taste of our coffee.", link: "#contact" },
+    { id: 2, img: Latte, title: "Creamy Latte Art", description: "Indulge in the art of a perfect latte.", link: "#contact" },
+    { id: 3, img: Brew6, title: "Outside Catering", description: "Bringing the Brew to You! Perfect Coffee for Any Event", link: "#contact" },
+    { id: 4, img: Brew5, title: "Take away Coffee", description: "Grab & Go! Freshly Brewed Coffee for Busy Days", link: "#contact" },
+    { id: 5, img: Brew4, title: "Coffee Tasting Experiences", description: "Dive into the World of Flavors with Our Exclusive Coffee Tasting Experience ☕✨", link: "#contact" },
+    { id: 6, img: Brew1, title: "Special Brewed Coffee", description: "Savor the Moment with freshly Brewed Coffee.Unique flavors in every brew.", link: "#contact" },
+    { id: 7, img: Brew3, title: "Ready Coffee Beans", description: "Elevate your brew at home with aromatic beans for the ultimate coffee experience.", link: "#contact" },
+    { id: 8, img: Brew2, title: "Special Ricano", description: "Experience the Art in Every Cup! Indulge in expertly crafted barista creations", link: "#contact" },
 
   ];
 
