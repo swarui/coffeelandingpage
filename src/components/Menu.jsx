@@ -14,7 +14,7 @@ function MenuItem({ title, description, price, image }) {
       <div  style={{fontFamily:'Poppins'}}    className="flex items-center  justify-between p-4 bg-[#804933] rounded-lg shadow-lg">
         {/* Coffee Image */}
         
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 ">
           <img src={image} alt={title} className="w-16 h-16 border border-black rounded-full" />
           {/* Title and Description */}
           <div>
@@ -33,7 +33,7 @@ function Menu() {
   return (
     <div id="menu" >
 
-    <div className="min-h-screen p-8 ">
+    <div className="min-h-screen p-8  ">
        <h1
           style={{ fontFamily: "Poppins" }}
           className="text-center text-3xl mt-10 font-bold text-[#3e2723] "

@@ -5,7 +5,7 @@ function Home() {
     <>
     <div  id='home' >
       {/* Main Body */}
-      <div className="flex lg:flex-row flex-col h-full min-h-screen lg:mt-10">
+      <div className="flex lg:flex-row flex-col  lg:mt-10">
         {/* Left Text Body */}
         <div className="w-full lg:w-1/2 lg:mt-[16vh]  p-10 lg:ml-10 flex flex-col lg:text-left ">
           <h1
@@ -49,7 +49,7 @@ function Home() {
         {/* Image Container */}
         <div className="w-full lg:w-1/2 flex justify-center items-center ">
           <img
-            className="w-full h-full object-cover lg:max-w-[600px] lg:max-h-[600px]"
+            className="w-full h-full object-cover lg:max-w-[600px]"
             src={Kahawa2}
             alt="Kahawa coffee"
           />

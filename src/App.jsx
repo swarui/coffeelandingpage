@@ -9,7 +9,7 @@ function App() {
   return (
     <div style={{ backgroundColor: "#FFFAF1" }}>
       <Navbar />
-      <Home />
+      <Home/>
       <Menu />
       <AboutUs />
       <Service />
