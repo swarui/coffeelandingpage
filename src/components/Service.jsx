@@ -33,7 +33,7 @@ function Service() {
           style={{ fontFamily: "Poppins" }}
           className="text-center text-3xl font-bold text-[#3e2723] mb-2"
         >
-          Who are we?
+          Services
         </h1>
         <h2
           style={{ fontFamily: "Poppins" }}
