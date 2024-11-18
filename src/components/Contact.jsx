@@ -104,13 +104,14 @@ function Contact() {
                 <input
                     type="tel"
                     name="phone_number"
-                    className="border-b border-black focus:outline-none focus:border-orange-800"
+                    className="border-b  border-black focus:outline-none focus:border-orange-800"
                     style={{
                         borderRadius: "0",
                         borderTop: "none",
                         borderLeft: "none",
                         borderRight: "none",
                         height: "7vh",
+                        style:'rtl'
                     }}
                 />
             </div>

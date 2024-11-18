@@ -71,7 +71,7 @@ function Service() {
       >
         {slides.map(slide => (
          <SwiperSlide key={slide.id}>
-  <div className="bg-[#804933]  overflow-hidden shadow-lg flex flex-col h-full rounded-lg">
+  <div className="bg-orange-900  overflow-hidden shadow-lg flex flex-col h-full rounded-lg">
     <img
       src={slide.img}
       alt={slide.title}

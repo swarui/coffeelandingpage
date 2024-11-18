@@ -30,7 +30,7 @@ function AboutUs() {
           </div>
 
           {/* Right Text */}
-          <div className="w-full lg:w-3/4 mt-6 lg:mt-0 p-6 lg:p-10 text-center lg:text-left">
+          <div className="w-full lg:w-3/4 mt-4 lg:mt-0 p-6 lg:p-10 text-center lg:text-left">
             <p
               style={{ fontFamily: 'Poppins' }}
               className="lg:text-[1.0em] sm:text-[0.975em] mt-4 leading-relaxed"
