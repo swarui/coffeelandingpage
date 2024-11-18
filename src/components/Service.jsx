@@ -38,6 +38,8 @@ function Service() {
   ];
 
   return (
+    <div  id='service' >
+
     <div   style={{fontFamily:'Poppins'}} className="w-full max-w-5xl mx-auto py-8  text-white">
    <h1
           style={{ fontFamily: "Poppins" }}
@@ -49,7 +51,7 @@ function Service() {
           style={{ fontFamily: "Poppins" }}
           className="text-center  text-md text-[#3e2723]   mb-6"
         >
-          About Us
+          What we offer
         </h2>      <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
@@ -92,6 +94,7 @@ function Service() {
 
         ))}
       </Swiper>
+    </div>
     </div>
   );
 }

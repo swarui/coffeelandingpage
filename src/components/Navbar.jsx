@@ -65,25 +65,26 @@ function Navbar() {
         <div className="hidden lg:flex items-center justify-center w-full text-black">
           <ul className="flex flex-row gap-8 text-[15px] cursor-pointer">
             <a href="#home">
-              <li>Home</li>
+              <li className="hover:text-orange-800 " >Home</li>
+              
             </a>
             <a href="#menu">
-              <li>Menu</li>
+              <li className="hover:text-orange-800 "  >Menu</li>
             </a>
             <a href="#about">
-              <li>About Us</li>
+              <li className="hover:text-orange-800 " >About Us</li>
             </a>
             <a href="#about">
-              <li>Service</li>
+              <li className="hover:text-orange-800 " >Service</li>
             </a>
             <a href="#contact">
-              <li>Contact</li>
+              <li className="hover:text-orange-800 ">Contact</li>
             </a>
           </ul>
         </div>
         <div className="hidden lg:flex fixed right-10">
           <a href="mailto:mainastevew.com">
-            <button className="bg-gradient-to-r from-yellow-500 to-yellow-800 text-black transition duration-500 hover:bg-green-700 rounded-full px-3 py-2 mt-1.5 shadow-lg text-[0.795em]">
+            <button className="bg-gradient-to-r from-green-500 to-yellow-800 text-black transition duration-500 hover:bg-green-700 rounded-full px-3 py-2 mt-1.5 shadow-lg text-[0.795em]">
               Get Voucher
             </button>
           </a>

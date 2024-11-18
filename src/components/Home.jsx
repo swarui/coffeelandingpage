@@ -30,16 +30,16 @@ function Home() {
               Coffee.
             </h2>
 
-            <div className="w-auto flex gap-8">
+            <div className="w-auto flex flex-wrap gap-4 lg:gap-8 mt-6">
               <button
                 style={{ fontFamily: 'Poppins' }}
-                className="cursor-pointer flex justify-between px-4 py-2 text-white shadow-lg hover:scale-105 duration-500 hover:ring-1 border border-black bg-green-800 mt-6"
+                className="cursor-pointer px-3 sm:px-4 py-2 sm:py-3 text-white shadow-lg hover:scale-105 duration-500 hover:ring-1 border border-black bg-green-800 text-sm sm:text-base lg:text-md"
               >
                 Download App
               </button>
               <button
                 style={{ fontFamily: 'Poppins' }}
-                className="cursor-pointer flex justify-between px-4 py-2 text-black shadow-lg hover:scale-105 duration-500 hover:ring-1 border border-orange-300 mt-6"
+                className="cursor-pointer px-3 sm:px-4 py-2 sm:py-3 text-black shadow-lg hover:scale-105 duration-500 hover:ring-1 border border-orange-300 text-sm sm:text-base lg:text-md"
               >
                 Newsletter
               </button>

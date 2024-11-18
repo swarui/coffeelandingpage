@@ -2,6 +2,7 @@ import Mocha from "../assets/Mocha.jpeg";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+
 function Contact() {
     const form = useRef();
 
@@ -40,7 +41,7 @@ function Contact() {
                         Reach Out
                     </h2>
                 </div>
-               <section
+            <section
     style={{ fontFamily: "Poppins" }}
     className="flex flex-col md:flex-row items-stretch justify-center p-4 md:p-8 gap-8"
 >
@@ -146,6 +147,7 @@ function Contact() {
         </div>
     </div>
 </section>
+
 
             </div>
         </>
