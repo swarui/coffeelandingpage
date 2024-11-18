@@ -10,7 +10,7 @@ function Copyright(){
       href="https://swarui.netlify.app"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-blue-500 hover:underline ml-1"
+      className=" underline ml-1"
     >
       Swarui
     </a>
