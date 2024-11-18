@@ -61,45 +61,45 @@ function Menu() {
           />
 
           <MenuItem
-            title="Iced Cold Coffee"
+            title="Ice Cold "
             description="A refreshing cold coffee."
             price="Ksh 250"
             image={Iced}
           />
 
           <MenuItem
-            title="Mocha Coffee Brew"
+            title="Mocha Brew"
             description="A strong and rich espresso brew."
             price="Ksh 300"
             image={Brew}
           />
 
           <MenuItem
-            title="Latte Coffee"
+            title="Latte"
             description="A robust, aromatic escape in every cup."
             price="Ksh 350"
             image={Latte}
           />
           <MenuItem
-            title="Americano Coffee"
+            title="Americano"
             description="A harmonious blend for a perfect brew."
             price="Ksh 400"
             image={Americano}
           />
           <MenuItem
-            title="Corado Coffee"
+            title="Corado"
             description="Pure coffee bliss, brewed just for you."
             price="Ksh 450"
             image={Corado}
           />
           <MenuItem
-            title="Capuccino Coffee"
+            title="Capuccino"
             description="Expertly roasted for a full-bodied taste."
             price="Ksh 400"
             image={Cappuccino}
           />
           <MenuItem
-            title="Americano Coffee"
+            title="Americano"
             description="A symphony of flavor, brewed to perfection."
             price="Ksh 400"
             image={Ricano}
