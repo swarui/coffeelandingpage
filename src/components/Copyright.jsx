@@ -12,7 +12,7 @@ function Copyright(){
       rel="noopener noreferrer"
       className=" underline ml-1"
     >
-      Swarui
+      swarui.
     </a>
   </span>
 </div>

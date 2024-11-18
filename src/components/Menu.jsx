@@ -7,6 +7,8 @@ import Latte from "../assets/Latte.jpeg";
 import Brew from "../assets/Brew.jpeg";
 import Ricano from "../assets/Ricano.png";
 import Mocha2 from "../assets/Mocha2.png";
+import Mocha4 from "../assets/Mocha4.png";
+
 
 
 function MenuItem({ title, description, price, image }) {
@@ -88,7 +90,7 @@ function Menu() {
           title="Capuccino"
           description="Expertly roasted for a full-bodied taste."
           price="Ksh 400"
-          image={Cappuccino}
+          image={Mocha4}
         />
         <MenuItem
           title="Americano"
