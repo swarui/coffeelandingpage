@@ -38,7 +38,7 @@ function AboutUs() {
               Kahawa Ke, where coffee and comfort come together in perfect harmony.
               Nestled in the heart of Nairobi, Kenya. We pride ourselves on offering a
               unique experience for coffee lovers and travelers alike. At Kahawa Ke, we
-              believe that great coffee isn't just a drink—it's a lifestyle.
+              believe that great coffee isn't just a drink, it's a lifestyle.
             </p>
           </div>
         </div>
