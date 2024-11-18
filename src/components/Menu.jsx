@@ -47,7 +47,7 @@ function Menu() {
         </h1>
         <h2
           style={{ fontFamily: "Poppins" }}
-          className="text-center text-lg text-blue-600"
+          className="text-center text-md text-[#804933]"
         >
           Best Selling
         </h2>

@@ -47,7 +47,7 @@ function Service() {
         </h1>
         <h2
           style={{ fontFamily: "Poppins" }}
-          className="text-center  text-lg text-blue-600  mb-6"
+          className="text-center  text-md text-[#3e2723]   mb-6"
         >
           About Us
         </h2>      <Swiper
