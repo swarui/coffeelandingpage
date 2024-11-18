@@ -27,7 +27,7 @@ import Brew7 from '../assets/Brew7.jpeg';
 function Service() {
   const slides = [
     { id: 1, img: Iced, title: "Best Coffee Flavor", description: "Experience the rich taste of our coffee.", link: "#contact" },
-    { id: 2, img: Brew7, title: "Barista Workshops & Classes", description: "Master the Art of Coffee: Join Our Barista Workshops & Classes.", link: "#contact" },
+    { id: 2, img: Brew7, title: "Barista Workshops & Classes", description: "Master the Art of Coffee. Join Our Barista Workshops & Classes .", link: "#contact" },
     { id: 3, img: Brew6, title: "Corporate & Event Catering", description: "Bringing the Brew to You! Perfect Coffee for Any Event", link: "#contact" },
     { id: 4, img: Brew5, title: "Take away Coffee", description: "Grab & Go! Freshly Brewed Coffee for Busy Days", link: "#contact" },
     { id: 5, img: Brew4, title: "Coffee Tasting Experiences", description: "Dive into the World of Flavors with Our Exclusive Coffee Tasting Experience ☕✨", link: "#contact" },
