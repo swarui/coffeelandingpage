@@ -10,7 +10,7 @@ function Contact() {
         e.preventDefault();
 
         emailjs
-            .sendForm('service_sn70eas', 'template_440rfhp', form.current, 'LsQydn94cP5h4yB-f')
+            .sendForm('service_sn70eas', 'template_44orfhp', form.current, 'LsQydn94cP5h4yB-f')
             .then(
                 (result) => {
                     console.log('SUCCESS!', result.text);
