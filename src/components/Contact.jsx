@@ -114,7 +114,7 @@ function Contact() {
                             </div>
 
                             {/* Phone Number */}
-                            <div className="flex flex-col">
+                            {/* <div className="flex flex-col">
                                 <h2 className="text-sm sm:text-base mb-1">Phone Number</h2>
                                 <input
                                     type="tel"
@@ -129,7 +129,7 @@ function Contact() {
                                         height: "7vh",
                                     }}
                                 />
-                            </div>
+                            </div> */}
 
                             {/* Your Message */}
                             <div className="flex flex-col">
@@ -143,7 +143,7 @@ function Contact() {
                                         borderLeft: "none",
                                         borderRight: "none",
                                         padding: "0",
-                                        height: "10vh",
+                                        height: "25vh",
                                     }}
                                 />
                             </div>
