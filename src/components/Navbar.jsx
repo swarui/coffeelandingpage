@@ -84,7 +84,7 @@ function Navbar() {
         </div>
         <div className="hidden lg:flex fixed right-10">
           <a href="mailto:mainastevew.com">
-            <button className="bg-gradient-to-r from-green-500 to-yellow-800 text-black transition duration-500 hover:bg-green-700 rounded-full px-3 py-2 mt-1.5 shadow-lg text-[0.795em]">
+            <button className="bg-gradient-to-r from-yellow-600 to-yellow-800 text-black transition duration-500 hover:bg-green-700 rounded-full px-3 py-2 mt-1.5 shadow-lg text-[0.795em]">
               Get Voucher
             </button>
           </a>
