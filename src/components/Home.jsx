@@ -18,7 +18,7 @@ function Home() {
               style={{ fontFamily: 'Poppins' }}
               className="text-orange-800 font-semibold mt-[-1.5em] text-[1.5em]"
             >
-              Awaken your senses
+              Awaken your sensespas
             </h2>
 
             <h2
