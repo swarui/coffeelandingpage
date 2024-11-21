@@ -55,48 +55,63 @@ function Menu() {
           description="A blend of Arabica coffee beans."
           price="Ksh 200"
           image={Mocha2}
+          loading="lazy"
+
         />
         <MenuItem
           title="Ice Cold"
           description="A refreshing cold coffee."
           price="Ksh 250"
           image={Iced}
+          loading="lazy"
+
         />
         <MenuItem
           title="Mocha Brew"
           description="A strong and rich espresso brew."
           price="Ksh 300"
           image={Brew}
+          loading="lazy"
+
         />
         <MenuItem
           title="Latte"
           description="A robust, aromatic escape in every cup."
           price="Ksh 350"
           image={Latte}
+          loading="lazy"
+
         />
         <MenuItem
           title="Americano"
           description="A harmonious blend for a perfect brew."
           price="Ksh 400"
           image={Americano}
+          loading="lazy"
+
         />
         <MenuItem
           title="Corado"
           description="Pure coffee bliss, brewed just for you."
           price="Ksh 450"
           image={Corado}
+          loading="lazy"
         />
         <MenuItem
           title="Capuccino"
           description="Expertly roasted for a full-bodied taste."
           price="Ksh 400"
           image={Mocha4}
+          loading="lazy"
+
         />
         <MenuItem
           title="Americano"
           description="A symphony of flavor ."
           price="Ksh 400"
           image={Ricano}
+          loading="lazy"
+
         />
       </div>
     </div>

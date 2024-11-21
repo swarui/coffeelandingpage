@@ -52,6 +52,7 @@ function Home() {
               className="w-full h-auto object-cover lg:max-w-full"
               src={Kahawa2}
               alt="Kahawa coffee"
+              loading="lazy"
             />
           </div>
         </div>
