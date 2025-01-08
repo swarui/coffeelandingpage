@@ -15,7 +15,7 @@ function Navbar() {
   // Effect to show or hide navbar on scroll
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > lastScrollY && window.scrollY > 100) {
+    if (window.scrollY > lastScrollY && window.scrollY > 100) {
         // If scrolling down and scrolled past 100px, hide navbar
         setShowNavbar(false);
       } else {
