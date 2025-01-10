@@ -143,7 +143,7 @@ function Contact() {
                                         borderLeft: "none",
                                         borderRight: "none",
                                         padding: "0",
-                                        height: "25vh",
+                                        height: "12vh",
                                     }}
                                 />
                             </div>
