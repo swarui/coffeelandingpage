@@ -4,11 +4,15 @@
 
 @font-face {
     font-family: gristela;
-    src: url(../src/assets/fonts/gristela.otf);
+    src: url(../src/assets/fonts/gristela.otf)format('woff2'),;
+    font-display: swap;
+
 }
 @font-face {
     font-family: moonet;
-    src: url(../src/assets/fonts/Moonet.otf);
+    src: url(../src/assets/fonts/Moonet.otf) format('woff2'),;
+    font-display: swap;
+
 }
 .swiper-button-next, .swiper-button-prev {
     color: #36946d; /* Set the color you want for the arrows */
