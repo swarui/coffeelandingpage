@@ -13,7 +13,7 @@ function Contact() {
                 "service_sn70eas",
                 "template_44orfhp",
                 form.current,
-                "LsQydn94cP5h4yB-f"
+                "2-SPL3vl95yWdQIrSvp6Z"
             )
             .then(
                 (result) => {
