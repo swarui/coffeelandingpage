@@ -32,7 +32,7 @@ function Contact ()  {
     return (
         <div id="contact">
             {/* Header Section */}
-            <div className="text-center mt-20">
+            <div  style={{fontFamily:'Poppins'}} className="text-center mt-20">
                 <h1 className="text-center text-2xl sm:text-3xl font-bold text-[#3e2723] mb-2">Contact us</h1>
                 <h2 className="text-center text-sm sm:text-base text-[#3e2723] mb-6">Reach Out</h2>
             </div>

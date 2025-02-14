@@ -2,6 +2,7 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const bodyParser = require("body-parser");
+const path = require("path"); // Add path module to work with file paths
 require("dotenv").config();
 
 const app = express();
@@ -26,13 +27,13 @@ app.post("/contact", (req, res) => {
 
   // Email options
   const mailOptions = {
-    from: email, // Sender address (from form)
-    to: process.env.EMAIL_USER, // Receiver address
+    from: email, 
+    to: process.env.EMAIL_USER, 
     subject: `Contact Form Message from ${firstName}`,
-    text: `You have a new message from ${firstName} ${lastName ? lastName : ""} (${email}):\n\nMessage: ${message}`,
-};
-
+    html: `<p>You have a new message from <strong>${firstName} ${lastName ? lastName : ""}</strong> (${email}):</p><p><strong>Message:</strong><br>${message}</p>`,
+  };
   
+
   // Send the email
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
@@ -44,6 +45,15 @@ app.post("/contact", (req, res) => {
   });
 });
 
+// Serve static files from the React app build folder
+app.use(express.static(path.join(__dirname, "build")));  // Add this line to serve your frontend
+
+// Serve index.html for all non-API routes to enable React Router
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
+// Start the server
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
