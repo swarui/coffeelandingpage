@@ -40,7 +40,7 @@ app.post("/contact", (req, res) => {
   });
 });
 
-// Serve frontend from the backend (optional)
+// Serve frontend from backend
 if (process.env.NODE_ENV === "production") {
   const path = require("path");
   app.use(express.static(path.join(__dirname, "client", "dist")));
@@ -50,6 +50,7 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
+// Listen on the assigned port and bind to 0.0.0.0
 app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on port ${port}`);
 });
