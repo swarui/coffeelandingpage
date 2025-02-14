@@ -2,11 +2,10 @@ const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const path = require("path"); // Add path module to work with file paths
 require("dotenv").config();
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5000; // Use Render's assigned port
 
 // Middleware
 app.use(cors());
@@ -16,25 +15,21 @@ app.use(bodyParser.json());
 app.post("/contact", (req, res) => {
   const { firstName, lastName, email, message } = req.body;
 
-  // Create the email transporter
   const transporter = nodemailer.createTransport({
-    service: "gmail", // You can change to any email service
+    service: "gmail",
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
     },
   });
 
-  // Email options
   const mailOptions = {
-    from: email, 
-    to: process.env.EMAIL_USER, 
+    from: email,
+    to: process.env.EMAIL_USER,
     subject: `Contact Form Message from ${firstName}`,
-    html: `<p>You have a new message from <strong>${firstName} ${lastName ? lastName : ""}</strong> (${email}):</p><p><strong>Message:</strong><br>${message}</p>`,
+    text: `You have a new message from ${firstName} ${lastName ? lastName : ""} (${email}):\n\nMessage: ${message}`,
   };
-  
 
-  // Send the email
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.log("Error:", error);
@@ -45,16 +40,16 @@ app.post("/contact", (req, res) => {
   });
 });
 
-// Serve static files from the React app build folder
-app.use(express.static(path.join(__dirname, "build")));  // Add this line to serve your frontend
+// Serve frontend from the backend (optional)
+if (process.env.NODE_ENV === "production") {
+  const path = require("path");
+  app.use(express.static(path.join(__dirname, "client", "dist")));
 
-// Serve index.html for all non-API routes to enable React Router
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "build", "index.html"));
-});
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
+  });
+}
 
-// Start the server
-app.listen(port, '0.0.0.0', () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Server running on port ${port}`);
 });
-
